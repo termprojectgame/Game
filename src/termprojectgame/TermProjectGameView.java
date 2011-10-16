@@ -135,6 +135,11 @@ public class TermProjectGameView extends FrameView {
         startGame.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, 0));
         startGame.setText(resourceMap.getString("startGame.text")); // NOI18N
         startGame.setName("startGame"); // NOI18N
+        startGame.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                startGameActionPerformed(evt);
+            }
+        });
         fileMenu.add(startGame);
 
         javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(termprojectgame.TermProjectGameApp.class).getContext().getActionMap(TermProjectGameView.class, this);
@@ -194,6 +199,11 @@ public class TermProjectGameView extends FrameView {
         setMenuBar(menuBar);
         setStatusBar(statusPanel);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void startGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startGameActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_startGameActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel mainPanel;

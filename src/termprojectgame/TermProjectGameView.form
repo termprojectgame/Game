@@ -47,6 +47,9 @@
                 <Property name="text" type="java.lang.String" resourceKey="startGame.text"/>
                 <Property name="name" type="java.lang.String" value="startGame" noResource="true"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="startGameActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
               <Properties>
