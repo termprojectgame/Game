@@ -202,6 +202,7 @@ public class TermProjectGameView extends FrameView {
 
     private void startGameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startGameActionPerformed
         // TODO add your handling code here:
+        //Some new text
         
     }//GEN-LAST:event_startGameActionPerformed
 
